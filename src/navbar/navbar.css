@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.cantainer {
+    max-width: 1304px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.navbar {
+    position: relative;
+    font-family: sans-serif;
+    padding: 26px 0;
+}
+
+.nav-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.navbar-logo {
+    font-size: 38px;
+    font-weight: 800;
+}
+
+.nav-text {
+    display: flex;
+    gap: 24px;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.nav-text a:hover {
+    color: brown;
+    transition: .3s;
+}
+
+.menu-img {
+    display: none;
+}
+
+@media screen and (max-width: 724px) {
+    .navbar-logo {
+        font-size: 32px;
+    }
+
+    .nav-text {
+        font-size: 14px;
+        display: flex;
+        gap: 18px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    .navbar-logo {
+        font-size: 32px;
+    }
+
+    .nav-text {
+        display: none;
+    }
+
+    .menu-img {
+        display: block;
+        font-size: 32px;
+    }
+}
+
+@media screen and (max-width: 460px) {
+    .navbar-logo {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .navbar-logo {
+        font-size: 24px;
+    }
+}
