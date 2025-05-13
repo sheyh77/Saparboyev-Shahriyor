@@ -21,21 +21,21 @@
 }
 
 .footer-subtitle {
-    width: 650px;
-    margin-top: 10px;
+    width: 60%;
+    margin-top: 5px;
     line-height: 150%;
     font-size: 19px;
 }
 
 .footer-icons {
     display: flex;
-    gap: 24px;
+    gap: 15px;
 }
 
 .footer-icons img {
     width: 40px;
     height: 40px;
-    margin-top: 20px;
+    margin-top: 5px;
 }
 
 @media screen and (max-width: 1224px){
